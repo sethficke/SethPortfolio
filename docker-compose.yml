@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  sethportfolio3:
+    image: sethportfolio3
+    build:
+      context: ./SethPortfolio3
+      dockerfile: Dockerfile

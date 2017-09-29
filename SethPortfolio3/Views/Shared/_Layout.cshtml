@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seth Ficke</title>
+    @Html.Partial("_CssLinks")
+</head>
+<body>
+    @Html.Partial("_Header")
+    <div class="content-container">
+        @RenderBody()
+    </div>
+    @Html.Partial("_Footer")
+    <script src="~/js/site.min.js"></script>
+</body>
+</html>

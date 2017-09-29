@@ -1,0 +1,142 @@
+﻿.content-container {
+    display: flex;
+    background-color: #3b5b3b;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+main>*, aside>* {
+    margin: .5% 1%;
+}
+
+main a {
+    text-decoration: none;
+}
+
+article {
+    background-color: white;
+}
+
+main section {
+    background-color: white;
+}
+
+main h2 {
+    line-height: 2em;
+    background-color: #3F4494;
+    color: white;
+    padding-left: 1em;
+}
+
+section {
+    background-color: white;
+    padding: 1em;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+.lead {
+    text-align: center;
+    padding: 3vw;
+    line-height: 5vh;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: white;
+    background-color: #3F4494;
+    box-shadow: 1px 1px 0 10px white;
+    height: 15vh;
+}
+
+.lead-soft {
+    padding: 1vw;
+}
+
+.skills {
+    display: flex;
+}
+
+.skills li {
+    flex-direction: row;
+    padding-top: 1em;
+    margin-top: -1em;
+    flex: 1;
+}
+
+.skills li:hover {
+    background-color: #ebebeb;
+}
+
+
+
+.schoolname {
+    padding: 5vw;
+    background-color: #3f4494;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.schoolname h1 {
+    font-size: 1.1em;
+    margin-bottom: 1em;
+}
+
+.schoolname h2 {
+    font-size: 1em;
+}
+
+
+
+.skills {
+    display: flex;
+    flex-direction: row;
+}
+
+.skills li {
+    width: 20%;
+    text-align: center;
+    line-height: 3em;
+}
+
+.skills img {
+    width: 90px;
+    height: 90px;
+}
+
+.skills_bottomline {
+    line-height: 4em;
+    display: block;
+    margin-left: 3vw;
+}
+
+@media screen and (min-width: 1000px) {
+    section {
+        max-width: 500px;
+    }
+}
+
+#map {
+}
+
+#map iframe {
+    width: 100%;
+}
+
+#map h3 {
+    line-height: 2em;
+    text-align: center;
+}

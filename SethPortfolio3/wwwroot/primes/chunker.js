@@ -1,0 +1,1 @@
+self.onmessage=function(c){c=JSON.parse(c.data);for(var b=navigator.hardwareConcurrency||1,d=[],a=0;a<b;a++)d[a]=[];for(b=a=0;b<c.length;b++)a==d.length&&(a=0),d[a].push(c[b]),a++;postMessage(JSON.stringify(d));self.close()};

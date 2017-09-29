@@ -1,0 +1,38 @@
+
+@{
+    ViewData["Title"] = "JsPrimes";
+}
+
+<h2>JsPrimes</h2>
+
+<p>"JavaScript can't do concurrent data processing", they said.  They were wrong.  With the HTML5 Web Workers API, I can build tools to efficiently process heavy computations in-browser.  Check out an example below, and view source code on <a href="https://github.com/sethficke/Seth-Ficke-Portfolio">GitHub</a></p>
+
+
+<ul>
+    <caption>Sieve Control Panel</caption>
+    <li>
+        <label for="min">Inclusive Minimum</label>
+        <input type="number" value="0" id="min" placeholder="min">
+    </li>
+    <li>
+        <label for="max">Exclusive Maximum</label>
+        <input type="number" value="10000000" id="max" placeholder="max">
+    </li>
+    <li>
+        <input class="action-button" type="button" id="toggleCalc" value="Find Primes">
+        <input type="button" class="action-button" id="exportJson" value="Export to JSON">
+        <a id="downloadHelper"></a>
+    </li>
+</ul>
+<div id="outputDiv">
+    <div>
+        <h3>Highest Prime:</h3> null
+    </div>
+    <div>
+        <h3>Count Of Primes:</h3> null
+    </div>
+</div>
+
+<script src="~/primes/batcher.js"></script>
+<script src="~/primes/update.js"></script>
+
