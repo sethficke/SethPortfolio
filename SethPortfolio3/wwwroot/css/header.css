@@ -22,18 +22,15 @@ header nav>.phone {
     font-size: 2em;
     color: white;
     text-decoration: none;
-    background-color: rgba(255,255,255,0.2);
     flex-grow: 1;
 }
 
 header .spacer {
     flex-grow: 3;
-    background-color: rgba(255,255,255,0.2)
 }
 
 header .links {
     display: flex;
-    background-color: rgba(255,255,255,0.2);
     flex-direction: row;
     line-height: 2em;
     font-size: 2em;
@@ -51,24 +48,17 @@ header .links a {
 header hgroup {
     text-align: center;
     z-index: 100;
+    background-color: rgba(255,255,255,0.1);
+    padding: 1.5vw;
+    padding-bottom: 2vw;
 }
 
 header h1 {
-    margin-top: 3vw;
     font-size: 3em;
 }
-
-header h2 {
-    padding-bottom: 5vw;
-}
-
 @media screen and (max-width:900px){
     /* Put responsive navigation stuff here. */
 }
 
 @media only screen and (min-width: 900px){
-    header h1 {
-        font-size: 7em;
-        margin-top: 5vw;
-    }
 }

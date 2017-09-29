@@ -49,15 +49,15 @@ a {
 }
 
 .lead {
+    font-family: "Agency FB";
     text-align: center;
-    padding: 3vw;
-    line-height: 5vh;
-    font-size: 1.1em;
+    padding: 2vw;
+    line-height: 2vh;
+    font-size: 3em;
     font-weight: 700;
     color: white;
     background-color: #3F4494;
     box-shadow: 1px 1px 0 10px white;
-    height: 15vh;
 }
 
 .lead-soft {
@@ -82,7 +82,7 @@ a {
 
 
 .schoolname {
-    padding: 5vw;
+    padding: 1.5vw;
     background-color: #3f4494;
     color: white;
     text-align: center;
