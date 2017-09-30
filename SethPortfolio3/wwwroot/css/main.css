@@ -24,6 +24,7 @@ main a {
 
 article {
     background-color: white;
+    margin: auto;
 }
 
 main section {
@@ -52,7 +53,7 @@ a {
     font-family: "Agency FB";
     text-align: center;
     padding: 2vw;
-    line-height: 2vh;
+    line-height: 3.1vh;
     font-size: 3em;
     font-weight: 700;
     color: white;

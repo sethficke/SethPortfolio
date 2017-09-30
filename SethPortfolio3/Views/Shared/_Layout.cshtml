@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Seth Ficke</title>
     @Html.Partial("_CssLinks")
+    @Html.Partial("_IconLinks")
 </head>
 <body>
     @Html.Partial("_Header")
@@ -12,6 +13,7 @@
         @RenderBody()
     </div>
     @Html.Partial("_Footer")
-    <script async defer src="~/js/site.min.js"></script>
+    <script src="~/lib/jQuery/dist/jquery.min.js"></script>
+    <script src="~/js/site.min.js"></script>
 </body>
 </html>

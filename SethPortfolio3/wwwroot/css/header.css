@@ -56,8 +56,15 @@ header hgroup {
 header h1 {
     font-size: 3em;
 }
-@media screen and (max-width:900px){
+@media screen and (max-width:500px){
     /* Put responsive navigation stuff here. */
+    header .links {
+        display: none;
+    }
+
+    header .phone {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 900px){
