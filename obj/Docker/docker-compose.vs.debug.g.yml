@@ -8,16 +8,15 @@ services:
         source: obj/Docker/empty/
     environment:
       - DOTNET_USE_POLLING_FILE_WATCHER=1
-      - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
+      - NUGET_FALLBACK_PACKAGES=
     volumes:
-      - C:\Users\owner\Source\Repos\SethPortfolio3\SethPortfolio3:/app
-      - C:\Users\owner\vsdbg:/remote_debugger:ro
-      - C:\Users\owner\.nuget\packages\:/root/.nuget/packages:ro
-      - C:\Users\owner\.nuget\packages\:/root/.nuget/fallbackpackages:ro
+      - /Users/sethficke/Documents/SethPortfolio/SethPortfolio3:/app
+      - /Users/sethficke/.vsdbg:/remote_debugger:ro
+      - /Users/sethficke/.nuget/packages/:/root/.nuget/packages:ro
 
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/fallbackpackages  bin/Debug/netcoreapp1.1/SethPortfolio3.dll"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages  bin/Debug/netcoreapp1.1/SethPortfolio3.dll"
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/bash -c \"if PID=$$(pidof -x dotnet); then kill $$PID; fi\""

@@ -1,1 +1,2 @@
-C:\Users\owner\Source\Repos\SethPortfolio3\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:/Users/owner/Source/Repos/SethPortfolio3/obj/Debug/docker-compose.dcproj.CoreCompileInputs.cache
+/Users/sethficke/Documents/SethPortfolio/obj/Debug/docker-compose.dcproj.CoreCompileInputs.cache
