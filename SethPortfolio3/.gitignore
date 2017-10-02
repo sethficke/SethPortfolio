@@ -13,6 +13,8 @@ project.lock.json
 *.userprefs
 *.userosscache
 *.sln.docstates
+.userprefs
+SethPortfolio3.userprefs
 
 # Build results
 [Dd]ebug/
